@@ -1,0 +1,16 @@
+<view class="container">
+	<form bindsubmit="submitForm">
+		<view class="part-1 part">
+			<view><label>姓名：<input name="username" type="text" placeholder="请输入您的姓名" value="{{card.username}}" /></label></view>
+			<view><label>手机：<input name="telephone" type="text" placeholder="请输入您的手机号" value="{{card.telephone}}" /></label></view>
+			<view><label>邮箱：<input name="email" type="text" placeholder="请输入邮箱" value="{{card.email}}" /></label></view>
+			<view><label>单位：<input name="work" type="text" placeholder="请输入单位名称" value="{{card.work}}" /></label></view>
+			<view><label class="no-bdb">职位：<input name="level" type="text" placeholder="请输入职位" value="{{card.level}}" /></label></view>
+		</view>
+		<view class="part part-2">
+			<view><label>地址：<input name="address" type="text" placeholder="请输入地址" value="{{card.address}}" /></label></view>
+			<view><label class="no-bdb">微博：<input name="weibo" type="text" placeholder="请输入微博" value="{{card.weibo}}" /></label></view>
+		</view>
+		<view class="submit-btn"><button form-type="submit">保存</button></view>
+	</form>
+</view>

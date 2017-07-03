@@ -1,0 +1,62 @@
+.card-container {
+	margin: 20px 0px; 
+	padding: 20px;
+	background: #fff;
+	position: relative;
+}
+.card-container text {
+	display: block;
+	font-size: 12px;
+	color: #999;
+	line-height: 24px;
+}
+.tips{
+	background: white;
+	padding:0px 10px;
+}
+.tips view{
+    padding:0px 10px;
+    background: #fff;
+    display:block;
+    color:#999;
+	font-size: 12px;
+	height:30px;
+    line-height:30px;
+    border-bottom:1px solid #999;
+}
+.tips .no-bd{
+	border-bottom:none;
+}
+.card-container .username {
+	color: #000;
+}
+.card-container .username text {
+	font-size: 22px;
+	display: inline;
+}
+.card-container .username .small {
+	font-size: 14px;
+	color: #666;
+}
+.card-container .tel {
+	font-size: 16px;
+	color: #1d77ff;
+}
+.card-container .logo {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background: orange;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+}
+button{
+	background: #609700;
+	color: #fff;
+	margin:10px;
+}

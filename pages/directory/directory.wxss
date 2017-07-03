@@ -1,0 +1,28 @@
+.part {
+	background: #fff;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.part view {
+	height: 50px;
+	line-height: 50px;
+}
+.part input {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:10px;
+}
+.part label {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	height: 50px;
+}
+.part .no-bdb {
+	border-bottom: none;
+}
+.submit-btn button {
+	background: #609700;
+	color: #fff;
+	margin:10px;
+}

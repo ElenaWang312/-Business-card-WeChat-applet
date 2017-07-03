@@ -1,0 +1,18 @@
+<view>
+
+	<view class="card-container">
+		<text class="username">
+			<text>{{card.username}}</text>
+			<text class="small">{{card.level}}</text>
+		</text>
+		<text class="tel">{{card.telephone}}</text>
+		<text class="work">{{card.work}}</text>
+		<text class="address">{{card.address}}</text>
+		<text class="email">{{card.email}}</text>
+		<text class="weibo">{{card.weibo}}</text>
+		<view class="logo">{{card.logo}}</view>
+	</view>
+	
+	<button bindtap="gotoCreateCard">编辑名片</button>
+
+</view>

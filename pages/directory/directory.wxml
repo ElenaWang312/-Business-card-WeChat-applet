@@ -1,0 +1,15 @@
+<view class="container">
+	<form bindsubmit="submitForm">
+		<view class="part-1 part">
+			<view></view>
+			<view></view>
+			<view></view>
+			<view></view>
+			<view></view>
+		</view>
+		<view class="part part-2">
+			<view></view>
+			<view></view>
+		</view>
+	</form>
+</view>

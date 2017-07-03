@@ -1,0 +1,40 @@
+{
+	"pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/directory/directory",
+    "pages/card/card"
+	],
+	"window": {
+    "navigationBarTextStyle":"black",
+		"navigationBarTitleText": "好物名片",
+		"navigationBarBackgroundColor":"white"
+	},
+	"tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "我的名片",
+      "iconPath":"pages/img/my.png",
+      "selectedIconPath":"pages/img/my2.png",
+      "selectedColor":"#609700"
+    }, 
+    {
+      "pagePath": "pages/directory/directory",
+      "text": "名片夹",
+      "iconPath":"pages/img/duoren.png",
+      "selectedIconPath":"pages/img/duoren2.png",
+      "color":"black",
+      "selectedColor":"#609700"
+    },
+     {
+      "pagePath": "pages/my/my",
+      "text": "我",
+      "iconPath":"pages/img/my.png",
+      "selectedIconPath":"pages/img/my2.png",
+      "color":"black",
+      "selectedColor":"#609700"
+    }
+    ]
+  }
+
+}
